@@ -1,0 +1,7 @@
+applications:
+- name: pkmst-auth-service
+  memory: 512M
+  instances: 1
+  host: pkmst-auth-service
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.7
+  path: target/auth-service.jar
