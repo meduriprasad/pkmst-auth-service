@@ -1,0 +1,11 @@
+applications:
+- name: pkmst-auth-service
+  memory: 512M
+  instances: 1
+  host: pkmst-auth-service
+  buildpack: java_buildpack
+  path: target/auth-service.jar
+  env:
+    CONFIG_SERVER_PROKARMA_EI_PIVOTAL_URL : pkmst-config.apps.prokarma.com
+    CONFIG_SERVER_PROKARMA_EI_PIVOTAL_PASSWORD : user
+    CONFIG_SERVER_PROKARMA_EI_PIVOTAL_USERNAME : user
