@@ -3,7 +3,7 @@ applications:
   memory: 512M
   instances: 1
   host: pkmst-auth-service
-  buildpack: java_buildpack
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
   path: target/auth-service.jar
   env:
     CONFIG_SERVER_PROKARMA_EI_PIVOTAL_URL : pkmst-config.apps.prokarma.com
