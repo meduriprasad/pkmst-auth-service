@@ -1,8 +1,8 @@
 package com.prokarma.auth.service.security;
 
-import com.piggymetrics.auth.domain.User;
-import com.piggymetrics.auth.repository.UserRepository;
-import com.piggymetrics.auth.service.security.MongoUserDetailsService;
+import com.prokarma.auth.domain.User;
+import com.prokarma.auth.repository.UserRepository;
+import com.prokarma.auth.service.security.MongoUserDetailsService;
 
 import org.junit.Before;
 import org.junit.Test;
