@@ -1,12 +1,13 @@
-package com.piggymetrics.auth.service.security;
+package com.prokarma.auth.service.security;
 
-import com.piggymetrics.auth.domain.User;
-import com.piggymetrics.auth.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import com.prokarma.auth.domain.User;
+import com.prokarma.auth.repository.UserRepository;
 
 @Service
 public class MongoUserDetailsService implements UserDetailsService {

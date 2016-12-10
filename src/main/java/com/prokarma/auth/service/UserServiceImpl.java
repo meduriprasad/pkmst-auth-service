@@ -1,13 +1,14 @@
-package com.piggymetrics.auth.service;
+package com.prokarma.auth.service;
 
-import com.piggymetrics.auth.domain.User;
-import com.piggymetrics.auth.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
+
+import com.prokarma.auth.domain.User;
+import com.prokarma.auth.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService {

@@ -1,8 +1,9 @@
-package com.piggymetrics.auth.repository;
+package com.prokarma.auth.repository;
 
-import com.piggymetrics.auth.domain.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+
+import com.prokarma.auth.domain.User;
 
 @Repository
 public interface UserRepository extends CrudRepository<User, String> {
