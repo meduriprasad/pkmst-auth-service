@@ -9,7 +9,7 @@ applications:
     CONFIG_SERVER_PROKARMA_EI_PIVOTAL_URL: pkmst-config.apps.prokarma.com
     AUTH_SERVER_PROKARMA_EI_PIVOTAL_URL: pkmst-auth-service.apps.prokarma.com
     SPRING_ADMIN_PROKARMA_EI_PIVOTAL_URL: pkmst-spring-admin.apps.prokarma.com
-    REGISRTY_SERVER_PROKARMA_EI_PIVOTAL_URL: pkmst-registry.apps.prokarma.com
+    REGISTRY_SERVER_PROKARMA_EI_PIVOTAL_URL: pkmst-registry.apps.prokarma.com
     CONFIG_SERVER_PROKARMA_EI_PIVOTAL_PASSWORD: user
     CONFIG_SERVER_PROKARMA_EI_PIVOTAL_USERNAME: user
     MONGO_PROKARMA_EI_PIVOTAL_USERNAME: user
