@@ -14,4 +14,5 @@ applications:
     CONFIG_SERVER_PROKARMA_EI_PIVOTAL_USERNAME: user
     MONGO_PROKARMA_EI_PIVOTAL_USERNAME: user
     MONGO_PROKARMA_EI_PIVOTAL_PASSWORD: password
+    ZIPKIN_URL: pkmst-zipkin.apps.prokarma.com
   
