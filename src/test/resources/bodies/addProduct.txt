@@ -1,0 +1,6 @@
+{
+    "id": 4,
+    "name": "SAMSUNG",
+    "category": "D",
+    "cost": 45000
+}
